@@ -1,0 +1,258 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+    background: #eee;
+    min-height: 550px;
+    background-attachment: fixed;
+} 
+.logo {
+    font-family: 'typo';
+    font-size: 40px;
+    color: #ffbb33;
+    margin: 15px;
+}
+
+.bg {
+    min-height: 540px;
+}
+
+.bg1 {
+    background: url(../image/bg.jpg);
+    min-height: 700px;
+
+}
+.form-control {
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+@font-face {
+    font-family: 'typo';
+    src: url('../fonts/typo.ttf');
+}
+
+@font-face {
+    font-family: 'gothic';
+    src: url('../fonts/gothics.ttf');
+}
+
+.panel {
+    margin-top: 31px;
+    padding: 50px;
+    padding-bottom: 20px;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+    float: right;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.title {
+    font-family: 'typo';
+}
+
+.header {
+    background: #202020;
+    height: 70px;
+}
+
+
+
+.title1 {
+    font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.title2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.sub1 {
+    width: 90px;
+    color: #202020;
+    background: #00480c;
+    font-size: 15px;
+    height: 35px;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+}
+
+.sub {
+    width: 50%;
+    background-color: #00480c;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 30px;
+}
+
+.sub:hover {
+    color: #fff;
+}
+
+.footer {
+    font-size: 15px;
+    text-align: center;
+    border-top: 1px solid;
+    border-color: #323232;
+    background-color: #202020;
+}
+
+.footer a {
+    margin: 25px;
+    color: orange;
+    text-decoration: none;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #9acd32;
+    border-top: 2px solid;
+    border-color: orange;
+
+}
+
+.box {
+    padding: 9px;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.log1 {
+    font: 15px 'Ubuntu', sans-serif;
+    color: orange;
+    margin-left: 10px;
+}
+
+.log {
+    margin: 10px;
+    margin-right: 60px;
+    margin-left: 5px;
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+    font-size: 15px;
+}
+
+.log:hover {
+    color: #9acd32;
+    border-top: 2px solid;
+    border-color: orange;
+    text-decoration: none;
+}
+
+/*Navigation Section*/
+.navbar-brand img {
+    height: 38px;
+    width: 105px;
+    margin-top: -7px;
+  }
+  .navbar-header a p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .mu-top-nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 7px 0;
+  }
+  .mu-nav-wrapper {
+    padding: 0 85px;
+  }
+  .navbar-nav {
+    float: right !important;
+  }
+  .nav-btn {
+    padding: 5px 35px;
+    background-color: #117c1d;
+    float: right;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: none;
+    margin-top: -6px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .nav-btn:hover,
+  .nav-btn:focus {
+    background-color: #0a5012;
+    color: white;
+    outline: 0;
+    box-shadow: none;
+  }
+  .nav-btn-logout {
+    padding: 5px 35px;
+    background-color: #117c1d;
+    float: right;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: none;
+    margin-top: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+  }
+  .nav-btn-logout:hover,
+  .nav-btn-logout:focus {
+    background-color: #0a5012;
+    color: white;
+    outline: 0;
+    box-shadow: none;
+  }
+  .nav-btn a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a:focus {
+    background: none;
+    color: #34c6d3;
+  }
+  
+  .navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: #34c6d3;
+  }
+  .navbar-collapse {
+    max-height: none !important;
+  }
+  .mu-top-nav ul.navbar-nav > li.active > a {
+    color: #34c6d3;
+  }

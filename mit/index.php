@@ -281,7 +281,7 @@ function validateForm() {
                             </div>
                         </div>
                         <?php if(@$_GET['q7'])
-//{ echo'<p style="color:red;font-size:15px;">'.@$_GET['q7'];}?>
+{ echo'<p style="color:red;font-size:15px;">'.@$_GET['q7'];}?>
                       
                         <div class="form-group">
                             <label class="col-md-12 control-label" for=""></label>
@@ -295,7 +295,7 @@ function validateForm() {
             </div>  -->
 
 
-            <!--col-md-6 end-->
+            <!-- col-md-6 end -->
         </div>
     </div>
     </div>
